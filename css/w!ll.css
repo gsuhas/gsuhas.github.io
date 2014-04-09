@@ -1,0 +1,159 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+
+span {
+	font: bold 32px Georgia, serif;	
+}
+
+.half-div {
+	height:300px;;
+	display: block;
+}
+
+.container-div {	
+	width: 100%;
+	position: absolute;
+	/*height: 100%;
+	border: 15px solid #c0c0c0;
+	background-color: #333333;*/
+	left: 0;
+	right: 0;
+}
+
+.half-row {
+	height: 50%;
+}
+
+.work-bg {
+	background-image: url("../img/work-grey.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: #FFFFFF;
+}
+
+.work-bg:hover {
+	background-image: url("../img/work.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: #8CD600;
+}
+
+.about-bg {
+	background-image: url("../img/about-grey.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: #FFFFFF;
+}
+
+.about-bg:hover {
+	background-image: url("../img/about.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: #F88000;
+}
+
+.service-bg {
+	background-image: url("../img/service-grey.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: #FFFFFF;
+}
+
+.service-bg:hover {
+	background-image: url("../img/service.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: #ED0091;
+}
+
+.upload-bg {
+	background-image: url("../img/upload-grey.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: #FFFFFF;
+}
+
+.upload-bg:hover {
+	background-image: url("../img/upload.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color: #0DC3FF;
+}
+
+.contact-bg {
+	background-color: #333333;
+	color: #FFFFFF;
+	font: bold Georgia, serif;
+}
+
+.contact-bg:hover {
+	background-color: #425C81;
+	color: #FCD208;
+	font: bold Georgia, serif;
+}
+
+.contact-norm {
+	display: none;
+}
+
+.contact-hover {
+	display: none;
+}
+
+.contact-view {
+	display: block;
+}
+
+hr {
+	height: 20px;
+	width: 50%;
+	color: #f00;
+	background-color: #f00;
+	border:none;
+}
+
+.hover-hr{
+	height: 20px;
+	width: 50%;
+	color: #ff0;
+	background-color: #ff0;
+	border:none;
+}
+
+.center-text {
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+.grey-border{	
+	border-bottom-color: #FFFFFF !important;
+	border-bottom: .125em solid;
+		
+}
+
+.green-border{
+	border-bottom: .125em solid;
+	border-bottom-color: #8CD600;
+}
+
+.blue-border{
+	border-bottom: .125em solid;
+	border-bottom-color: #0DC3FF;
+}
+
+.yellow-border{
+	border-bottom: .125em solid;
+	border-bottom-color: #FCD208;
+}
+
+.orange-border{
+	border-bottom: .125em solid;
+	border-bottom-color: #F88000;
+}
+
+.pink-border{
+	border-bottom: .125em solid;
+	border-bottom-color: #ED0091;
+}
